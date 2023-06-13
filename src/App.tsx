@@ -67,7 +67,7 @@ function App() {
         />
         <div>
           <h1 className="text-slate-200 text-2xl mx-7">
-            El <strong>Dr. Jorge Treviño Garza</strong> es un{" "}
+            El <strong>Dr. Jorge Treviño Garza</strong> es un
             <strong>Otorrinolaringólogo en Monterrey</strong> que cuenta con
             especialidad en Cirugía Plástica Facial, es un médico que
             constantemente se actualiza con el fin de mejorar sus servicios a
@@ -110,8 +110,7 @@ function App() {
             Benitez No 2704, Colonia Obispado, Monterrey NL CP 64060.
           </p>
           <p className="text-slate-200 mx-4 text-base flex-1">
-            Da clic en el botón de
-            <BsWhatsapp className="inline cursor-pointer" /> WhatsApp para
+            Da clic en el botón de <BsWhatsapp className="inline cursor-pointer" /> WhatsApp para
             contactarnos para saber más sobre el <br />
             <strong>
               <u>otorrinolaringólogo en Monterrey.</u>
