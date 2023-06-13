@@ -4,14 +4,14 @@ function App() {
 
   return (
     <div>
-      <div className="w-[377px] h-[270px] flex overflow-hidden md:h-1/4 w-full relative">
+   <div className="w-[377px] h-[270px] flex overflow-hidden md:h-1/4 w-full relative">
   <div className="absolute z-10">
-    <h1 className="text-xl text-gray-700 relative top-1 left-[160px] md:text-5xl left-[600px] top-7">
+    <h1 className="text-xl text-gray-700 relative top-1 left-[160px] md:text-5xl md:left-[600px] md:top-7">
       Otorrinolaringólogo 
       <span className="block mb-7"/> 
       en Monterrey
     </h1>
-    <div className="relative top-28 left-[630px]">
+    <div className="relative top-28 md:top-36 md:left-[630px]">
       <button className="bg-[#ed6452] border-4 border-[#ed6452] text-gray-200 p-4 flex cursor-pointer hover:shadow-xl shadow-[#a6291f] hover:bg-[#a6291f] hover:border-[#a6291f] transition duration-500">
         <a href="#contact" className="font-bold text-lg scroll-smooth">Contáctame Ahora</a>
       </button>
@@ -24,6 +24,7 @@ function App() {
   />
   <div className="absolute top-0 left-0 w-full h-full bg-blue-500 opacity-30"></div>
 </div>
+
 
 <div className="flex flex-wrap justify-evenly">    
 <div
