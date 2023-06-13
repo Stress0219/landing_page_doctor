@@ -19,7 +19,7 @@ function App() {
   </div>
   <img
     className="relative object-cover w-full"
-    src="./src/assets/doctor.jpg"
+    src="/public/doctor.jpg"
     alt="otorrinolaringologo en monterrey"
   />
   <div className="absolute top-0 left-0 w-full h-full bg-blue-500 opacity-30"></div>
