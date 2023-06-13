@@ -12,7 +12,7 @@ function App() {
       en Monterrey
     </h1>
     <div className="relative top-28 left-[630px]">
-      <button className="bg-transparent border-4 border-[#ed6452] text-gray-700 p-4 flex cursor-pointer hover:shadow-xl shadow-[#a6291f] transition duration-500 hover:bg-[#ed6452] hover:text-gray-200">
+      <button className="bg-[#ed6452] border-4 border-[#ed6452] text-gray-200 p-4 flex cursor-pointer hover:shadow-xl shadow-[#a6291f] transition duration-500">
         <a href="#contact" className="font-bold text-lg scroll-smooth">Contáctame Ahora</a>
       </button>
     </div>
