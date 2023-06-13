@@ -30,7 +30,7 @@ function App() {
       </div>
 
       <div className="flex flex-wrap justify-evenly">
-        <div className="transition duration-300 ease-in hover:scale-105 flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
+        <div className="transition duration-300 ease-in hover:scale-105 flex flex-col mx-4 my-7 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
           <img
             className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
             src="/tratos.jpg"
@@ -44,7 +44,7 @@ function App() {
             </h2>
           </div>
         </div>
-        <div className="transition duration-300 ease-in hover:scale-105 flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
+        <div className="transition duration-300 ease-in hover:scale-105 flex flex-col mx-4 my-7 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
           <img
             className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
             src="/investigacion.jpg"
@@ -52,28 +52,9 @@ function App() {
           />
           <div className="flex flex-col justify-start p-6">
             <h2 className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              El otorrinolaringólogo en Monterrey Jorge Treviño es ahora uno de
-              los médicos más importantes en su campo gracias a su contribución
-              a la investigación y la prevención.
-            </h2>
-          </div>
-        </div>
-        <div className="transition duration-300 ease-in hover:scale-105 flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
-          <img
-            className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-            src="/consulta.jpg"
-            alt="otorrinolaringologo en monterrey"
-          />
-          <div className="flex flex-col justify-start p-6">
-            <h2 className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              <ul>
-                <li>⦁ Consulta</li>
-                <li>⦁ Radiofrecuencia de Cornetes</li>
-                <li>⦁ Cirugia endoscópica para sinusitis</li>
-                <li>⦁ Cirugia de Tabique nasal</li>
-                <li>⦁ Endoscopia Nasal</li>
-                <li>⦁ Otorrinolaringología Pediátrica</li>
-              </ul>
+              El <strong>otorrinolaringólogo en Monterrey Jorge Treviño</strong>
+              es ahora uno de los médicos más importantes en su campo gracias a
+              su contribución a la investigación y la prevención.
             </h2>
           </div>
         </div>
@@ -84,6 +65,30 @@ function App() {
           alt="otorrinolaringologo en monterrey"
           className="w-6/12"
         />
+        <div>
+          <h1 className="text-slate-200 text-2xl mx-7">
+            El <strong>Dr. Jorge Treviño Garza</strong> es un{" "}
+            <strong>Otorrinolaringólogo en Monterrey</strong> que cuenta con
+            especialidad en Cirugía Plástica Facial, es un médico que
+            constantemente se actualiza con el fin de mejorar sus servicios a
+            los pacientes.
+          </h1>
+          <div className="block mx-7 bg-white p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mt-4">
+            <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              Servicios del <strong>Otorrinolaringólogo en Monterrey</strong>
+            </h5>
+            <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+              <ul>
+                <li>⦁ Consulta</li>
+                <li>⦁ Radiofrecuencia de Cornetes</li>
+                <li>⦁ Cirugía endoscópica para sinusitis</li>
+                <li>⦁ Cirugía de Tabique nasal</li>
+                <li>⦁ Endoscopia Nasal</li>
+                <li>⦁ Otorrinolaringología Pediátrica</li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </div>
 
       <div
@@ -92,7 +97,7 @@ function App() {
       >
         <div className="flex">
           <p className="text-slate-200 mx-4 text-base flex-1">
-            Agenda una consulta por WhatsApp al número{" "}
+            Agenda una consulta por WhatsApp al número
             <BsWhatsapp className="inline" /> 8115448285 <br />
             o mediante una llamada al <LuPhone className="inline" /> 8183475220.
             <br />
@@ -105,8 +110,12 @@ function App() {
             Benitez No 2704, Colonia Obispado, Monterrey NL CP 64060.
           </p>
           <p className="text-slate-200 mx-4 text-base flex-1">
-            Da clic en el botón de <BsWhatsapp className="inline cursor-pointer" /> WhatsApp para contactarnos para saber más
-            sobre el <strong><u>otorrinolaringólogo en Monterrey.</u></strong>
+            Da clic en el botón de{" "}
+            <BsWhatsapp className="inline cursor-pointer" /> WhatsApp para
+            contactarnos para saber más sobre el <br />
+            <strong>
+              <u>otorrinolaringólogo en Monterrey.</u>
+            </strong>
           </p>
         </div>
       </div>
