@@ -25,12 +25,12 @@ function App() {
   <div className="absolute top-0 left-0 w-full h-full bg-blue-500 opacity-30"></div>
 </div>
 
-<div className="flex">    
+<div className="flex flex-wrap justify-evenly">    
 <div
   className="flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
   <img
     className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-    src=""
+    src="/tratos.jpg"
     alt="otorrinolaringologo en monterrey" />
   <div className="flex flex-col justify-start p-6">
     <h2 className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
@@ -43,7 +43,7 @@ function App() {
   className="flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
   <img
     className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-    src=""
+    src="/investigacion.jpg"
     alt="otorrinolaringologo en monterrey" />
   <div className="flex flex-col justify-start p-6">
     <h2 className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
@@ -56,7 +56,7 @@ function App() {
   className="flex flex-col mx-4 my-2 bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 md:max-w-xl md:flex-row">
   <img
     className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-    src=""
+    src="/consulta.jpg"
     alt="otorrinolaringologo en monterrey" />
   <div className="flex flex-col justify-start p-6">
     <h2 className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
